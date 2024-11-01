@@ -75,7 +75,7 @@ if opcion == 'M':
     puntos = ingresar_puntos()
 else:
     puntos_predeterminados = [(0, 3), (1, 1), (2, 2), (4, 4), (0, 0), (1, 2), (3, 1), (3, 3)]
-    print("Puntos determinados: ")
+    print("Puntos predeterminados: ")
     print(puntos_predeterminados)
     puntos = [Punto(x, y) for x, y in puntos_predeterminados]
 
